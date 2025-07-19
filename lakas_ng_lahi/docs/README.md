@@ -1,19 +1,46 @@
 <div align="center">
+  <p>
+    <img src="./assets/logo/banner%20version%201.0.jpg" width="100%" alt="Lakas ng Lahi Banner"/>
+  </p>
 
-# 🏝️ Lakas ng Lahi
+  <h1 style="font-size: 3em; margin-bottom: 20px;">
+    Lakas ng Lahi
+  </h1>
 
-**A Hybrid RTS/Action-Adventure Game Inspired by Battle Realms & Ronin Trail**
+  <p style="font-size: 1.2em; max-width: 600px; margin: 0 auto 20px;">
+    Hybrid RTS/Action-Adventure set in a semi-historical, semi-mythological Philippines. Choose your clan, train unique units, and master both strategic and souls-like combat. Inspired by <i>Battle Realms</i> and <i>Ronin Trail</i>.
+  </p>
 
-[![Unreal Engine 5](https://img.shields.io/badge/Engine-Unreal%20Engine%205-blue?logo=unrealengine)](https://www.unrealengine.com/)
-[![Polygon Blockchain](https://img.shields.io/badge/Blockchain-Polygon-purple?logo=polygon)](https://polygon.technology/)
-[![License: Custom](https://img.shields.io/badge/License-Custom-red)](../LICENSE)
-[![Docs](https://img.shields.io/badge/Docs-Complete-brightgreen)](./)
+  <p>
+    <a href="#">
+      <img src="https://img.shields.io/badge/Engine-Unreal%20Engine%205-blue?logo=unrealengine" alt="Unreal Engine 5" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/Blockchain-Polygon-purple?logo=polygon" alt="Polygon Blockchain" />
+    </a>
+    <a href="../LICENSE">
+      <img src="https://img.shields.io/badge/License-Custom-red" alt="Custom License" />
+    </a>
+    <a href="./">
+      <img src="https://img.shields.io/badge/Docs-Complete-brightgreen" alt="Docs Complete" />
+    </a>
+  </p>
 
----
-
-## 🌏 Overview
-
-**Lakas ng Lahi** is a hybrid real-time strategy and action-adventure game set in a semi-historical, semi-mythological Philippines. Choose your clan, train unique units, and master both strategic and souls-like combat. Inspired by *Battle Realms* and *Ronin Trail*.
+  <p>
+    <a href="https://x.com/LakasNgLahi" target="_blank">
+      <img src="https://img.shields.io/twitter/follow/LakasNgLahi.svg?style=social" alt="Follow @LakasNgLahi" />
+    </a>
+    <a href="https://discord.gg/your-invite-link">
+      <img src="https://img.shields.io/badge/Chat%20on-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Chat on Discord" />
+    </a>
+    <a href="https://github.com/your-org/Lakas_ng_Lahi/stargazers">
+      <img src="https://img.shields.io/github/stars/your-org/Lakas_ng_Lahi" alt="stars" />
+    </a>
+    <a href="https://github.com/your-org/Lakas_ng_Lahi/network/members">
+      <img src="https://img.shields.io/github/forks/your-org/Lakas_ng_Lahi" alt="forks" />
+    </a>
+  </p>
+</div>
 
 ---
 
@@ -70,6 +97,4 @@
 - [Moodboard](./moodboard.md)
 - [Web3 Integration](./web3-integration.md)
 - [Contributing](./contributing.md)
-- [License](../LICENSE)
-
-</div> 
+- [License](../LICENSE) 
