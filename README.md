@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="lakas_ng_lahi/docs/assets/logo/banner%20version%201.0.jpg" width="100%" alt="Lakas ng Lahi Banner"/>
+    <img src="./assets/logo/banner%20version%201.0.jpg" width="100%" alt="Lakas ng Lahi Banner"/>
   </p>
 
   <h1 style="font-size: 3em; margin-bottom: 20px;">
@@ -33,11 +33,11 @@
     <a href="https://discord.gg/your-invite-link">
       <img src="https://img.shields.io/badge/Chat%20on-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Chat on Discord" />
     </a>
-    <a href="https://github.com/your-org/Lakas_ng_Lahi/stargazers">
-      <img src="https://img.shields.io/github/stars/your-org/Lakas_ng_Lahi" alt="stars" />
+    <a href="https://github.com/JustineDevs/lakas_ng_lahi/stargazers">
+      <img src="https://img.shields.io/github/stars/JustineDevs/lakas_ng_lahi" alt="stars" />
     </a>
-    <a href="https://github.com/your-org/Lakas_ng_Lahi/network/members">
-      <img src="https://img.shields.io/github/forks/your-org/Lakas_ng_Lahi" alt="forks" />
+    <a href="https://github.com/JustineDevs/lakas_ng_lahi/network/members">
+      <img src="https://img.shields.io/github/forks/JustineDevs/lakas_ng_lahi" alt="forks" />
     </a>
   </p>
 </div>
@@ -48,11 +48,12 @@
 
 | File | Description |
 |------|-------------|
-| [Game Design](./game-design.md) | Clan/unit/tech/upgrade trees, stats, skills, lore, and diagrams |
-| [Lore Bible](./lore-bible.md) | Expanded clan lore, philosophies, heroes, and flavor |
-| [Moodboard](./moodboard.md) | Visual, animation, and audio inspirations per clan |
-| [Web3 Integration](./web3-integration.md) | NFT, blockchain, and marketplace design |
-| [Contributing](./contributing.md) | Community guidelines and contribution process |
+| [Game Design](https://github.com/JustineDevs/lakas_ng_lahi/blob/docs/lakas_ng_lahi/docs/game-design.md) | Clan/unit/tech/upgrade trees, stats, skills, lore, and diagrams |
+| [Lore Bible](https://github.com/JustineDevs/lakas_ng_lahi/blob/docs/lakas_ng_lahi/docs/lore-bible.md) | Expanded clan lore, philosophies, heroes, and flavor |
+| [Moodboard](https://github.com/JustineDevs/lakas_ng_lahi/blob/docs/lakas_ng_lahi/docs/moodboard.md) | Visual, animation, and audio inspirations per clan |
+| [Web3 Integration](https://github.com/JustineDevs/lakas_ng_lahi/blob/docs/lakas_ng_lahi/docs/web3-integration.md) | NFT, blockchain, and marketplace design |
+| [Architecture](https://github.com/JustineDevs/lakas_ng_lahi/blob/docs/lakas_ng_lahi/docs/architecture.md) | System architecture, diagrams, and technical overview |
+| [Contributing](https://github.com/JustineDevs/lakas_ng_lahi/blob/docs/lakas_ng_lahi/docs/contributing.md) | Community guidelines and contribution process |
 | [License](../LICENSE) | Custom license and copyright |
 
 ---
@@ -72,11 +73,8 @@
 
 ---
 
-## 👥 Team
-- **Game Design:** [Your Name], [Collaborators]
-- **Art & Animation:** [Artists]
-- **Programming:** [Developers]
-- **Cultural Consultants:** [Advisors]
+## 👤 Solo Developer
+- **Developer:** JustineDevs
 
 ---
 
@@ -90,11 +88,3 @@
 - [ ] Full release
 
 ---
-
-## 📎 Quick Links
-- [Game Design](./game-design.md)
-- [Lore Bible](./lore-bible.md)
-- [Moodboard](./moodboard.md)
-- [Web3 Integration](./web3-integration.md)
-- [Contributing](./contributing.md)
-- [License](../LICENSE) 
