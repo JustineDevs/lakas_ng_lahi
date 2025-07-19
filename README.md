@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <img src="./assets/logo/banner%20version%201.0.jpg" width="100%" alt="Lakas ng Lahi Banner"/>
+    <img src="lakas_ng_lahi/docs/assets/logo/banner%20version%201.0.jpg" width="100%" alt="Lakas ng Lahi Banner"/>
   </p>
 
   <h1 style="font-size: 3em; margin-bottom: 20px;">
