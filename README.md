@@ -63,7 +63,7 @@
 | [Game Character Relationship Map](lakas_ng_lahi/docs/game-character-relationship-map.md) | Character and faction relationships |
 | [Dungeon Map](lakas_ng_lahi/docs/dungeon-map.md) | Dungeon layouts and diagrams |
 | [Weekly Plan](lakas_ng_lahi/docs/weekly-plan.md) | Weekly schedule and workflow |
-| [License](lakas_ng_lahi/docs/LICENSE.md) | Custom license and copyright |
+| [License](lakas_ng_lahi/LICENSE.md) | Custom license and copyright |
 
 ---
 
