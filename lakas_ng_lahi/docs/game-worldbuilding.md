@@ -31,15 +31,24 @@
 
 ---
 
+## Clan Resources: Terraced Rice Fields & Water Sources
+Each clan's homeland features iconic terraced rice fields and a vital water source, inspired by classic RTS maps and the landscapes of the Philippines. These are visually represented and connected to each clan's main settlement or capital.
+
+---
+
 ## Combined World Map (RTS + Velarde Style)
 This map combines the detailed, game-like RTS layout with the historical, archipelagic flow inspired by the [Velarde Map of 1734](https://en.wikipedia.org/wiki/Velarde_map#/media/File:Carta_Hydrographica_y_Chorographica_de_las_Yslas_Filipinas_Dedicada_al_Rey_Nuestro_Se%C3%B1or_por_el_Mariscal_d._Campo_D._Fernando_Valdes_Tamon_Cavall%C2%BA_del_Orden_de_Santiago_de_Govor._Y_Capn.jpg). Regions are grouped by geography and culture, with strategic points and routes for gameplay, while also reflecting the north-to-south island chain of the Philippines.
 
 ```mermaid
 flowchart TD
-  %% Luzon/North
+  %% Luzon/North (Tagalog & Igorot)
   subgraph "Luzon (North)"
     LU1["Cordillera Highlands\n(Igorot)"]
+    LU1_RF["Terraced Rice Fields"]
+    LU1_WS["Mountain Spring"]
     LU2["Maynila\n(Tagalog Capital)"]
+    LU2_RF["Terraced Rice Fields"]
+    LU2_WS["Pasig River"]
     LU3["Cagayan Valley"]
     LU4["Ilocos Coast"]
     NW1["Northern Wilds"]
@@ -50,9 +59,11 @@ flowchart TD
     M3["Harbor"]
   end
 
-  %% Central Islands
+  %% Central Islands (Visayan)
   subgraph "Central Islands"
     CI1["Balangay Isles\n(Visayan)"]
+    CI1_RF["Terraced Rice Fields"]
+    CI1_WS["Coastal Well"]
     CI2["Panay"]
     CI3["Cebu"]
     CI4["Bohol"]
@@ -62,10 +73,14 @@ flowchart TD
     BI2["Fishing Village"]
   end
 
-  %% Mindanao/South
+  %% Mindanao/South (Maguindanao & T'boli)
   subgraph "Mindanao (South)"
     MI1["Cotabato Plains\n(Maguindanao)"]
+    MI1_RF["Terraced Rice Fields"]
+    MI1_WS["Pulangi River"]
     MI2["Lake Sebu\n(T'boli)"]
+    MI2_RF["Terraced Rice Fields"]
+    MI2_WS["Lake Sebu"]
     MI3["Zamboanga"]
     MI4["Davao"]
     MI5["Sulu Archipelago"]
@@ -128,6 +143,18 @@ flowchart TD
   SD2 -- "Secret Tunnel" --> CP2
   LS2 -- "Lake Passage" --> ER2
 
+  %% Clan resource connections
+  LU1 -- "Feeds" --> LU1_RF
+  LU1 -- "Draws Water" --> LU1_WS
+  LU2 -- "Feeds" --> LU2_RF
+  LU2 -- "Draws Water" --> LU2_WS
+  CI1 -- "Feeds" --> CI1_RF
+  CI1 -- "Draws Water" --> CI1_WS
+  MI1 -- "Feeds" --> MI1_RF
+  MI1 -- "Draws Water" --> MI1_WS
+  MI2 -- "Feeds" --> MI2_RF
+  MI2 -- "Draws Water" --> MI2_WS
+
   %% Key cities and capitals
   LU2:::capital
   CI1:::capital
@@ -140,4 +167,4 @@ flowchart TD
 
 ---
 
-*This combined map visually merges the strategic, game-like layout with the historical archipelagic structure, suitable for both gameplay and lore/worldbuilding.* 
+*Each clan's homeland is now visually equipped with terraced rice fields and a water source, supporting both gameplay and lore authenticity.* 
